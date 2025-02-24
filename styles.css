@@ -16,7 +16,7 @@ main {
     display: flex;
     padding: 20px;
     margin: 20px;
-    text-align: justify;
+    border-bottom:3px solid black ;
 
 }
 
@@ -24,30 +24,35 @@ main {
     padding-left: 20px;
     padding-right: 10px;
     text-align: justify;
+    width: 70%;
 
 }
 
 .name {
-    text-align: right;
-    padding: 20px 20px 20px 0px;
-
-
+    width: 30%;
+    height: 50%;
+    font-size: x-large;
+    padding-left: 10px;
+    
 }
 
-.name h3{
+.name h2{
     background-color: #f4c7ab;
     color: grey;
     font-weight: bold;
+    text-align: left;
 
 }
 
-.education {
+.general {
     background-color: white;
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
 
 }
+
+
 
 .container {
     display: flex;

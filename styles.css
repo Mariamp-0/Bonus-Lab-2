@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+#encabezado ul li {
+    display: inline;
+    margin: 0px 100px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+
+}
+
+.Profile p {
+
+    text-align: justify;
+
+
+}
+
+.education {
+    background-color: white;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.education-container {
+    display: flex;
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+
+}
+
+.education-element {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+
+}
+
+.border { 
+    padding-left: 25px;
+    border-left: 3px solid black;
+
+} 

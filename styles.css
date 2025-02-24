@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #171717;
     line-height: 1.6;
 }
 
@@ -31,16 +31,18 @@ main {
 .name {
     width: 30%;
     height: 50%;
-    font-size: x-large;
+    font-size: xx-large;
     padding-left: 10px;
     
 }
 
 .name h2{
-    background-color: #f4c7ab;
-    color: grey;
+    background-color: #fab890;
+    color: rgb(84, 84, 84);
     font-weight: bold;
-    text-align: left;
+    text-align: center;
+    font-size: xx-large;
+    
 
 }
 
@@ -53,11 +55,16 @@ main {
 }
 
 
-
 .container {
     display: flex;
     border-bottom: 3px solid black;
     padding-bottom: 30px;
+
+}
+
+.container h4 {
+    color: rgb(19, 18, 18);
+    font-weight: 500;
 
 }
 
@@ -73,3 +80,55 @@ main {
     border-left: 3px solid black;
 
 } 
+
+#skills {
+
+    padding: 20px;
+    margin: 20px;
+    border-bottom:3px solid black ;
+
+}
+
+
+.progress-bar {
+
+    font-weight: bold;
+
+}
+
+.progress-bar-element {
+    display: flex;
+    background-color: lightgrey;
+    width: 80%;
+    height: 100%;
+    box-sizing: 70%;
+    border-radius: 12px;
+}
+
+.progress-bar-element-2 { 
+    display: flex;
+    background-color: #171717;
+    height: 100%;
+    width: 40%;
+
+}
+
+
+
+
+.hobbies{
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    height: 30%;
+
+}
+
+
+.table td {
+    border-radius: 20px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}

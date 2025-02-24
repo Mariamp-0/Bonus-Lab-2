@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
 }
@@ -21,10 +20,24 @@ main {
 
 }
 
-.Profile p {
-
+.profile {
+    padding-left: 20px;
+    padding-right: 10px;
     text-align: justify;
 
+}
+
+.name {
+    text-align: right;
+    padding: 20px 20px 20px 0px;
+
+
+}
+
+.name h3{
+    background-color: #f4c7ab;
+    color: grey;
+    font-weight: bold;
 
 }
 
@@ -36,14 +49,14 @@ main {
 
 }
 
-.education-container {
+.container {
     display: flex;
     border-bottom: 3px solid black;
     padding-bottom: 30px;
 
 }
 
-.education-element {
+.container-element {
     padding: 25px 25px 25px 0px;
     width: 50%;
     text-align: justify;
